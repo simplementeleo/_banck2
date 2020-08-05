@@ -1,0 +1,67 @@
+section.cards .card {
+  max-width: 400px;
+  border-radius: 10px;
+  border: none !important;
+  background: #fff;
+}
+section.cards .card .text-plan {
+  color: #899EA7;
+  font-weight: bold;
+}
+section.cards .card .text-daily {
+  color: #ff531e;
+}
+section.cards .card .input-group-text {
+  background: none !important;
+  border: none !important;
+}
+section.cards .card button {
+  text-transform: uppercase;
+  border: none;
+}
+section.cards .card-0 {
+  box-shadow: 1px 1px 15px #3a8cf8bb;
+}
+section.cards .card-0 .circle {
+  background: #3a8df8;
+  box-shadow: 1px 1px 30px #3a8cf8bb;
+  color: white;
+}
+section.cards .card-0 button {
+  background: #3a8df8;
+}
+section.cards .card-1 {
+  box-shadow: 1px 1px 15px #bab9a1c0;
+}
+section.cards .card-1 .circle {
+  background: #bab9a1;
+  box-shadow: 1px 1px 30px #bab9a1c0;
+  color: white;
+}
+section.cards .card-1 button {
+  background: #bab9a1;
+}
+section.cards .card-2 {
+  box-shadow: 1px 1px 15px #c0b036c7;
+}
+section.cards .card-2 .circle {
+  background: #c0b136;
+  box-shadow: 1px 1px 30px #c0b036c7;
+  color: white;
+}
+section.cards .card-2 button {
+  background: #c0b136;
+}
+section.cards .card-3 {
+  box-shadow: 1px 1px 15px #cd984ed5;
+}
+section.cards .card-3 .circle {
+  background: #cd994e;
+  box-shadow: 1px 1px 30px #cd984ed5;
+  color: white;
+}
+section.cards .card-3 button {
+  background: #cd994e;
+}
+
+/*# sourceMappingURL=cards.css.map */

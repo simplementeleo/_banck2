@@ -1,0 +1,25 @@
+section.business {
+    h1 {
+        font-size: 3em;
+        font-weight: bold;
+
+        @media (max-width: 600px) {
+            font-size: 2em;
+            text-align: center;
+        }
+
+    }
+
+    p {
+        @media (max-width: 600px) {
+            text-align: center;
+        }
+    }
+
+    button {
+        background: #38d5e2;
+        border-radius: 50px;
+        color: white;
+        text-transform: uppercase;
+    }
+}

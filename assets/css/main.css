@@ -1,0 +1,203 @@
+header {
+  background: url("../img/home.jpg") no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+header nav a {
+  font-weight: bold;
+}
+header nav .navbar-toggler {
+  border: none;
+}
+header nav .navbar-toggler:active, header nav .navbar-toggler:focus {
+  border: none;
+}
+header nav .collapse {
+  background: transparent;
+}
+@media (max-width: 991px) {
+  header nav .collapse {
+    background: #3f51b5;
+    padding: 30px;
+  }
+}
+header .container .title h1 {
+  font-size: 4rem;
+}
+@media (max-width: 510px) {
+  header .container .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 510px) {
+  header .container .title p {
+    text-align: center;
+  }
+}
+header .container .title button {
+  border-radius: 50px;
+  background: #4936fa;
+  text-transform: uppercase;
+  box-shadow: 1px 5px 14px #4a36fa9b;
+  transition: all ease-in-out 0.3s;
+}
+header .container .title button:hover {
+  transform: translateY(-5px);
+}
+
+section.total-invested button {
+  background: #38d5e2;
+  box-shadow: 1px 5px 14px #38d4e2c2;
+  width: 100%;
+  transition: all ease 0.3s;
+}
+section.total-invested button:hover {
+  transform: translateY(-5px);
+}
+section.total-invested h5 {
+  color: #b7b7b7;
+}
+section.total-invested .numbers {
+  color: #0db0c2;
+  font-size: 4em;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  section.total-invested .numbers {
+    font-size: 2em;
+  }
+}
+
+section.cards .card {
+  max-width: 400px;
+  border-radius: 10px;
+  border: none !important;
+  background: #fff;
+}
+section.cards .card .text-plan {
+  color: #899EA7;
+  font-weight: bold;
+}
+section.cards .card .text-daily {
+  color: #ff531e;
+}
+section.cards .card .input-group-text {
+  background: none !important;
+  border: none !important;
+}
+section.cards .card button {
+  text-transform: uppercase;
+  border: none;
+}
+section.cards .card-0 {
+  box-shadow: 1px 1px 15px #3a8cf8bb;
+}
+section.cards .card-0 .circle {
+  background: #3a8df8;
+  box-shadow: 1px 1px 30px #3a8cf8bb;
+  color: white;
+}
+section.cards .card-0 button {
+  background: #3a8df8;
+}
+section.cards .card-1 {
+  box-shadow: 1px 1px 15px #bab9a1c0;
+}
+section.cards .card-1 .circle {
+  background: #bab9a1;
+  box-shadow: 1px 1px 30px #bab9a1c0;
+  color: white;
+}
+section.cards .card-1 button {
+  background: #bab9a1;
+}
+section.cards .card-2 {
+  box-shadow: 1px 1px 15px #c0b036c7;
+}
+section.cards .card-2 .circle {
+  background: #c0b136;
+  box-shadow: 1px 1px 30px #c0b036c7;
+  color: white;
+}
+section.cards .card-2 button {
+  background: #c0b136;
+}
+section.cards .card-3 {
+  box-shadow: 1px 1px 15px #cd984ed5;
+}
+section.cards .card-3 .circle {
+  background: #cd994e;
+  box-shadow: 1px 1px 30px #cd984ed5;
+  color: white;
+}
+section.cards .card-3 button {
+  background: #cd994e;
+}
+
+section.referral .fluid .card {
+  background: url("../img/widget-bg.jpg") no-repeat;
+  background-position: left center;
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+section.referral .fluid .card h1 {
+  font-weight: bold;
+  color: white;
+}
+section.referral .fluid .card button {
+  background: #38d5e2;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+section.business h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  section.business h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  section.business p {
+    text-align: center;
+  }
+}
+section.business button {
+  background: #38d5e2;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section.widgets .card {
+  border: none;
+}
+
+footer {
+  background: url("../img/footer/footer.png") no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 60vh;
+}
+footer h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+@media (max-width: 597px) {
+  footer h1 {
+    font-size: 2em;
+  }
+}
+footer span {
+  padding: 150px 0 0 0;
+}
+
+/*# sourceMappingURL=main.css.map */

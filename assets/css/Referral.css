@@ -1,0 +1,20 @@
+section.referral .fluid .card {
+  background: url("../img/widget-bg.jpg") no-repeat;
+  background-position: left center;
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+section.referral .fluid .card h1 {
+  font-weight: bold;
+  color: white;
+}
+section.referral .fluid .card button {
+  background: #38d5e2;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+/*# sourceMappingURL=referral.css.map */

@@ -1,0 +1,52 @@
+header {
+    background: url('../img/home.jpg') no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+
+    nav {
+        a{
+            font-weight: bold;
+        }
+        .navbar-toggler {
+            border: none;
+            &:active, &:focus{
+                border: none;
+            }
+        }
+        .collapse {
+            background: transparent;
+            @media(max-width: 991px) {
+                background: #3f51b5;
+                padding: 30px;
+            }
+        }
+    }
+    .container {
+        
+        .title {
+            h1 {
+                font-size: 4rem;
+                @media (max-width: 510px){
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+            p {
+                @media (max-width: 510px){
+                    text-align: center;
+                }
+            }
+            button {
+                border-radius: 50px;
+                background: #4936fa;
+                text-transform: uppercase;
+                box-shadow: 1px 5px 14px #4a36fa9b;
+                transition: all ease-in-out .3s;
+                &:hover {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+}

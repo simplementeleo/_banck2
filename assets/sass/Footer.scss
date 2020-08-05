@@ -1,0 +1,16 @@
+footer {
+    background: url('../img/footer/footer.png') no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 60vh;
+    h1 {
+        font-size: 4em;
+        font-weight: bold;
+        @media (max-width: 597px){
+            font-size: 2em;
+        }
+    }
+    span {
+        padding: 150px 0 0 0 ;
+    }
+}

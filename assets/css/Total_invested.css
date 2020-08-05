@@ -1,0 +1,24 @@
+section.total-invested button {
+  background: #38d5e2;
+  box-shadow: 1px 5px 14px #38d4e2c2;
+  width: 100%;
+  transition: all ease 0.3s;
+}
+section.total-invested button:hover {
+  transform: translateY(-5px);
+}
+section.total-invested h5 {
+  color: #b7b7b7;
+}
+section.total-invested .numbers {
+  color: #0db0c2;
+  font-size: 4em;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  section.total-invested .numbers {
+    font-size: 2em;
+  }
+}
+
+/*# sourceMappingURL=total_invested.css.map */

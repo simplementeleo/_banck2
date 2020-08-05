@@ -1,0 +1,27 @@
+section.total-invested {
+    
+
+    button {
+        background: #38d5e2;
+        box-shadow: 1px 5px 14px #38d4e2c2;
+        width: 100%;
+        transition: all ease .3s;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+    h5 {
+        color: #b7b7b7;
+    }
+
+    .numbers{
+        color: #0db0c2;
+        font-size: 4em;
+        font-weight: bold;
+        @media(max-width: 600px){
+            font-size: 2em;
+        }
+    }
+
+
+}

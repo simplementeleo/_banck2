@@ -1,0 +1,20 @@
+footer {
+  background: url("../img/footer/footer.png") no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 60vh;
+}
+footer h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+@media (max-width: 597px) {
+  footer h1 {
+    font-size: 2em;
+  }
+}
+footer span {
+  padding: 150px 0 0 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

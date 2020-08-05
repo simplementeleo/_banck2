@@ -1,0 +1,87 @@
+section.cards {
+    .card {
+        max-width: 400px;
+        border-radius: 10px;
+        border: none !important;
+        background: #fff;
+
+        .text-plan {
+            color: #899EA7;
+            font-weight: bold;
+        }
+
+        .text-daily {
+            color: #ff531e;
+        }
+
+        .input-group-text {
+            background: none !important;
+            border: none !important;
+        }
+
+        button {
+            text-transform: uppercase;
+            border: none;
+        }
+
+    }
+
+    .card-0 {
+        box-shadow: 1px 1px 15px #3a8cf8bb;
+
+        .circle {
+            background: #3a8df8;
+            box-shadow: 1px 1px 30px #3a8cf8bb;
+            color: white;
+        }
+
+        button {
+            background: #3a8df8;
+        }
+    }
+
+    .card-1 {
+        box-shadow: 1px 1px 15px #bab9a1c0;
+
+        .circle {
+            background: #bab9a1;
+            box-shadow: 1px 1px 30px #bab9a1c0;
+            color: white;
+        }
+
+        button {
+            background: #bab9a1;
+        }
+    }
+
+    .card-2 {
+        box-shadow: 1px 1px 15px #c0b036c7;
+
+        .circle {
+            background: #c0b136;
+            box-shadow: 1px 1px 30px #c0b036c7;
+            color: white;
+        }
+
+        button {
+            background: #c0b136;
+        }
+    }
+
+
+
+    .card-3 {
+        box-shadow: 1px 1px 15px #cd984ed5;
+
+        .circle {
+            background: #cd994e;
+            box-shadow: 1px 1px 30px #cd984ed5;
+            color: white;
+        }
+
+        button {
+            background: #cd994e;
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+header {
+  background: url("../img/home.jpg") no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+header nav a {
+  font-weight: bold;
+}
+header nav .navbar-toggler {
+  border: none;
+}
+header nav .navbar-toggler:active, header nav .navbar-toggler:focus {
+  border: none;
+}
+header nav .collapse {
+  background: transparent;
+}
+@media (max-width: 991px) {
+  header nav .collapse {
+    background: #3f51b5;
+    padding: 30px;
+  }
+}
+header .container .title h1 {
+  font-size: 4rem;
+}
+@media (max-width: 510px) {
+  header .container .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 510px) {
+  header .container .title p {
+    text-align: center;
+  }
+}
+header .container .title button {
+  border-radius: 50px;
+  background: #4936fa;
+  text-transform: uppercase;
+  box-shadow: 1px 5px 14px #4a36fa9b;
+  transition: all ease-in-out 0.3s;
+}
+header .container .title button:hover {
+  transform: translateY(-5px);
+}
+
+/*# sourceMappingURL=home.css.map */
